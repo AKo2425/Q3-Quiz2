@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    background-color: #121420;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4c566a;
+    background-color:#1A313F;
+}
+
+/* Container Box */
+.container-box {
+    background: #2e3440;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Details & Summary */
+details {
+    cursor: pointer;
+}
+
+summary {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+    background: #3b4252;
+    border-radius: 5px;
+    text-align: left;
+}
+
+summary:hover {
+    background-color: #4c566a;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Input & Select Fields */
+input, select {
+    font-size: 16px;
+    border: 2px solid #4c566a;
+    border-radius: 5px;
+    background-color: #324a5f;
+    color: #ffffff;
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+input:focus, select:focus {
+    background-color: #0D2635;
+    border-color: #4C5E67;
+    outline: none;
+}
+
+/* Buttons */
+#submit, #print-ticket {
+    color: #ffffff;
+    background-color: #001420;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+#submit:hover, #print-ticket:hover {
+    background-color: #4C5E67;
+}
+
+/* Ticket Image */
+#ticket-image {
+    text-align: center;
+}
+
+#ticket-image img {
+    width: 100%;
+    max-width: 200px; /* Smaller ticket */
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#refresh-page {
+    color: #ffffff;
+    background-color: #d9534f;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+#refresh-page:hover {
+    background-color: #c9302c;
+}
